@@ -35,7 +35,7 @@ const todoList = () => {
         tarea.agregarTarea(tarea);
         mostrarLista();
     } else { 
-        ul.innerHTML += `<li class="list-group-item fw-bold"> ¡Usted no ha ingresado correctamente la tarea, inténtelo de nuevo! </li>`;
+        ul.innerHTML += `<li class="list-group-item fw-bold"> ¡Usted no ha ingresado correctamente algún dato, inténtelo de nuevo! </li>`;
     };
 }
 
